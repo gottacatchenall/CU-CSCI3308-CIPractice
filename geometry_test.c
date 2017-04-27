@@ -106,7 +106,7 @@ START_TEST(test_area_triangle)
     c.y = 1;
 
     double area = coord_2d_area_triangle(&a, &b, &c);
-    double exp = 0.5;
+    double exp = 0.0;
     ck_assert(area == exp);
 
 }
